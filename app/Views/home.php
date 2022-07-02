@@ -11,7 +11,7 @@
   <link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
-<nav class="bg-gray-800 border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-gray-900">
+<nav class="bg-gray-800 border-gray-200 px-2 sm:px-4 py-2.5">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
         <a href="https://flowbite.com/" class="flex items-center">
         <i class="fa-solid fa-graduation-cap fa-2xl text-red-800"></i>
@@ -57,7 +57,6 @@
                 <div class="flex-1">
                     <div class="text-center">
                         <h2 class="text-4xl font-bold text-center text-gray-700 dark:text-white">University</h2>
-                        
                         <p class="mt-3 text-gray-500 dark:text-gray-300">Sign in to access your account</p>
                     </div>
 
@@ -68,17 +67,17 @@
                     
                         <form action="/login/auth" method="post">
                             <div>
-                                <label for="inputemail" class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email Address</label>
-                                <input type="email" name="email" id="inputforemail" placeholder="example@example.com" class="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                                <label for="inputemail" class="block mb-2 text-sm text-gray-600">Email Address</label>
+                                <input type="email" name="email" id="inputforemail" placeholder="example@example.com" class="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                             </div>
 
                             <div class="mt-6">
                                 <div class="flex justify-between mb-2">
-                                    <label for="inputpassword" class="text-sm text-gray-600 dark:text-gray-200">Password</label>
+                                    <label for="inputpassword" class="text-sm text-gray-600 ">Password</label>
                                     <a href="#" class="text-sm text-gray-400 focus:text-blue-500 hover:text-blue-500 hover:underline">Forgot password?</a>
                                 </div>
 
-                                <input type="password" name="password" id="inputforpassword" placeholder="Your Password" class="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                                <input type="password" name="password" id="inputforpassword" placeholder="Your Password" class="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md   0 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                             </div>
 
                             <div class="mt-6">

@@ -12,7 +12,7 @@
 </head>
 <body>
 <div class="bg-gray-800 px-2 py-4 items-center mx-auto">
-      <a href="https://flowbite.com/" class="flex items-center">
+      <a href="http://localhost:8080/home" class="flex items-center">
       <i class="fa-solid fa-graduation-cap fa-2xl text-red-800 shadow-lg"></i>
           <span class="self-center text-2xl font-pj whitespace-nowrap text-white  ml-2">UNIVERSITY</span>
       </a>
@@ -29,7 +29,7 @@
             <div class="relative overflow-hidden bg-white rounded-2xl lg:rounded-3xl">
                   <div class="px-6 py-7 sm:px-12 sm:py-10">
                       <div class="text-center">
-                          <h1 class="text-3xl font-bold text-gray-900 font-pj sm:text-xl xl:text-xl">Sign Up</h1>
+                          <h1 class="text-3xl font-bold text-gray-900 font-pj sm:text-xl xl:text-xl">Sign up  your account</h1>
                           
                           <?php if(isset($validation)): ?>
                           <div class="alert alert-danger"><?= $validation->listErrors(); ?></div>
